@@ -1,28 +1,28 @@
 class Thinkwell < Formula
   desc "AI agent orchestration framework"
   homepage "https://github.com/dherman/thinkwell"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dherman/thinkwell/releases/download/v0.4.3/thinkwell-darwin-arm64.tar.gz"
-      sha256 "577bde13b819033ee99c29e39bd0b051395bec13bb462abfda6c689a1b06bb0e"
+      url "https://github.com/dherman/thinkwell/releases/download/v0.4.4/thinkwell-darwin-arm64.tar.gz"
+      sha256 "d356a628028cae5ac8409cd488f4fabdc2148e84ef72ed1595bb3d2514abd3dd"
     end
     on_intel do
-      url "https://github.com/dherman/thinkwell/releases/download/v0.4.3/thinkwell-darwin-x64.tar.gz"
-      sha256 "5702aa8a446ff271f0fa6556c4331de8a99d15cdce3bf017716da6b93eb4f81c"
+      url "https://github.com/dherman/thinkwell/releases/download/v0.4.4/thinkwell-darwin-x64.tar.gz"
+      sha256 "05c02927a257fabdbe68dc4228070e881c87a4a62afdcb14194ddf38196ced5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dherman/thinkwell/releases/download/v0.4.3/thinkwell-linux-arm64.tar.gz"
-      sha256 "b64e65717ebac8ef2b94b8a551054b96c92d2cc88f31d7e73eb584b94679a838"
+      url "https://github.com/dherman/thinkwell/releases/download/v0.4.4/thinkwell-linux-arm64.tar.gz"
+      sha256 "70774215018c8ad34161eaa6224287cae50faa363d5f425e9127cb1305682306"
     end
     on_intel do
-      url "https://github.com/dherman/thinkwell/releases/download/v0.4.3/thinkwell-linux-x64.tar.gz"
-      sha256 "9df917caf8516b77c95964219f8c7218ae37904600556ac1975e04a9a9570fdb"
+      url "https://github.com/dherman/thinkwell/releases/download/v0.4.4/thinkwell-linux-x64.tar.gz"
+      sha256 "b1570cb44ff56130690edee5e49ca563a0ff7373481a70e6c62e06d83cab823c"
     end
   end
 
